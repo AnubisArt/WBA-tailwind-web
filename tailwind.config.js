@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+      fontFamily:{
+        'alfa-slab-one':['Alfa Slab One', 'Serif'],
+        'dm-sans':["DM Sans", "sans-serif"]
+    },
   },
   plugins: [],
 }
