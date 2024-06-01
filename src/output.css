@@ -1049,12 +1049,20 @@ video {
     flex-wrap: wrap;
   }
 
+  .lg\:content-center {
+    align-content: center;
+  }
+
   .lg\:items-center {
     align-items: center;
   }
 
   .lg\:items-stretch {
     align-items: stretch;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
   }
 
   .lg\:gap-5 {
